@@ -28,9 +28,9 @@ declare function afterEach(fn: Function): void;
 declare function beforeAll(fn: Function): void;
 declare function afterAll(fn: Function): void;
 
-declare function it(name: string, fn: Function): void;
-declare function fit(name: string, fn: Function): void;
-declare function xit(name: string, fn: Function): void;
+declare function it(name: string, fn?: Function): void;
+declare function fit(name: string, fn?: Function): void;
+declare function xit(name: string, fn?: Function): void;
 
 declare function expect(value: mixed): JasmineExpectType;
 declare function fail(err?: Error | string): void;
